@@ -22,6 +22,8 @@ export default {
 .home {
   margin:  0 auto;
   height: 75vh;
+  width: auto;
+  max-width: 75vh;
   display: table;
 }
 
