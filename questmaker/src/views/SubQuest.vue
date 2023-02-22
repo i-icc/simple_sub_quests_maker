@@ -1,9 +1,6 @@
 <template>
   <div class="home">
-    サブクエストを<br />生成しますか？
-    <div class="container">
-      <CreateSubQuests msg="生成"></CreateSubQuests>
-    </div>
+    <CreateSubQuests msg="再生成"></CreateSubQuests>
   </div>
 </template>
 
@@ -11,7 +8,7 @@
 import CreateSubQuests from "@/components/CreateSubQuests.vue";
 
 export default {
-  name: "HomeView",
+  name: "SubQuest",
   components: { CreateSubQuests },
 };
 </script>

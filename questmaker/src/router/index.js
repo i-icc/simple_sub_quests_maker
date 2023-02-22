@@ -1,11 +1,17 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import SubQuest from '../views/SubQuest.vue'
 
 const routes = [
   {
     path: '/',
     name: 'home',
     component: HomeView
+  },
+  {
+    path: '/subquest',
+    name: 'subquest',
+    component: SubQuest
   },
   {
     path: '/about',
