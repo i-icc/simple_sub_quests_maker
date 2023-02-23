@@ -15,6 +15,7 @@
 <style scoped>
 .about {
   margin: 3rem;
+  font-size: 3vw;
 }
 
 .und {
