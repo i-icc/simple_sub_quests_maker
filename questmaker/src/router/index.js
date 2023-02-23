@@ -9,7 +9,8 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/subquest',
+    path: '/subquest/:id',
+    props: true,
     name: 'subquest',
     component: SubQuest
   },

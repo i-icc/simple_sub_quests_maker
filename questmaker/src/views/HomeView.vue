@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div class="container">
-      <h2>サブクエストを<br />生成しますか？</h2>
+      <div class="title">サブクエストを<br />生成しますか？</div>
       <div class="main">
         <CreateSubQuests msg="生成"></CreateSubQuests>
       </div>
@@ -19,6 +19,11 @@ export default {
 </script>
 
 <style scoped>
+.title {
+  font-size: 10vw;
+  margin-bottom:4vh;
+}
+
 .home {
   margin:  0 auto;
   height: 75vh;
@@ -28,7 +33,7 @@ export default {
 }
 
 .container {
-  margin: 0  auto;
+  margin: 1rem  auto;
   vertical-align: middle;
   display: table-cell;
 }
