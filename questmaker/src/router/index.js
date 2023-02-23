@@ -5,17 +5,21 @@ import SubQuest from '../views/SubQuest.vue'
 const routes = [
   {
     path: '/',
+    redirect: '/simple_sub_quests_maker'
+  },
+  {
+    path: '/simple_sub_quests_maker',
     name: 'home',
     component: HomeView
   },
   {
-    path: '/subquest/:id',
+    path: '/simple_sub_quests_maker/subquest/:id',
     props: true,
     name: 'subquest',
     component: SubQuest
   },
   {
-    path: '/about',
+    path: '/simple_sub_quests_maker/about',
     name: 'about',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route

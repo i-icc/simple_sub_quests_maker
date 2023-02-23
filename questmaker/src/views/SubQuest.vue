@@ -8,8 +8,8 @@
 </template>
 
 <script>
-import CreateSubQuests from "@/components/CreateSubQuests.vue";
-import QuestBoard from "@/components/QuestBoard.vue";
+import CreateSubQuests from "../components/CreateSubQuests.vue";
+import QuestBoard from "../components/QuestBoard.vue";
 
 import quests from "@/assets/quests.json";
 

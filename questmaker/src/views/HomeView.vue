@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import CreateSubQuests from "@/components/CreateSubQuests.vue";
+import CreateSubQuests from "../components/CreateSubQuests.vue";
 
 export default {
   name: "HomeView",
