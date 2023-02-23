@@ -1,18 +1,35 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="container">
+      <h2>サブクエストを<br />生成しますか？</h2>
+      <div class="main">
+        <CreateSubQuests msg="生成"></CreateSubQuests>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import CreateSubQuests from "@/components/CreateSubQuests.vue";
 
 export default {
-  name: 'HomeView',
-  components: {
-    HelloWorld
-  }
-}
+  name: "HomeView",
+  components: { CreateSubQuests },
+};
 </script>
+
+<style scoped>
+.home {
+  margin:  0 auto;
+  height: 75vh;
+  width: auto;
+  max-width: 75vh;
+  display: table;
+}
+
+.container {
+  margin: 0  auto;
+  vertical-align: middle;
+  display: table-cell;
+}
+</style>
