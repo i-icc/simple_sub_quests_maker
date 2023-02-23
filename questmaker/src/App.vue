@@ -7,8 +7,13 @@
 </template>
 
 <style>
+@font-face {
+	font-family: 'MyFont';
+	src: url(@/assets/genkai-mincho.ttf);
+}
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: MyFont, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

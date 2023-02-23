@@ -1,7 +1,9 @@
 <template>
   <div class="home">
-    <QuestBoard :quest="quests[$route.params.id]" />
-    <CreateSubQuests msg="再生成" :id="quests[$route.params.id]"></CreateSubQuests>
+    <div class="container">
+      <QuestBoard :quest="quests[$route.params.id]" />
+      <CreateSubQuests msg="再生成" :id="quests[$route.params.id]"></CreateSubQuests>
+    </div>
   </div>
 </template>
 
@@ -19,10 +21,21 @@ export default {
       quests: quests,
     };
   },
-  // watch: {
-  //   $route() {
-  //     location.reload();
-  //   },
-  // },
 };
 </script>
+
+<style scoped>
+.home {
+  margin: 0 auto;
+  height: 75vh;
+  width: auto;
+  max-width: 75vh;
+  display: table;
+}
+
+.container {
+  margin: 0 auto;
+  vertical-align: middle;
+  display: table-cell;
+}
+</style>

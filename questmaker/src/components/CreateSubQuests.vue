@@ -33,6 +33,7 @@ export default {
 button {
   font-size: 1.6rem;
   font-weight: 700;
+  font-family: MyFont, sans-serif;
   line-height: 1.5;
   position: relative;
   display: inline-block;

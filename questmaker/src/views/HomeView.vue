@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div class="container">
-      <h2>サブクエストを<br />生成しますか？</h2>
+      <h1>サブクエストを<br />生成しますか？</h1>
       <div class="main">
         <CreateSubQuests msg="生成"></CreateSubQuests>
       </div>
