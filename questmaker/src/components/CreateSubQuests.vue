@@ -1,5 +1,8 @@
 <template>
-  <router-link to="/subquest" v-slot="{ navigate }">
+  <router-link
+    :to="{ name: 'subquest', params: { id: Math.floor(Math.random() * 219) } }"
+    v-slot="{ navigate }"
+  >
     <button @click="navigate" role="link">
       <svg>
         <rect x="2" y="2" rx="0" fill="none" width="200" height="50"></rect>
